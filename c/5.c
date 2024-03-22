@@ -6,7 +6,16 @@
 #include <stdio.h>
 
 int main() {
-    // 이곳에 코드를 작성해주세요!
+   int age, height;
+
+	printf("나이, 키 순서대로 입력");
+	scanf("%d \n%d", &age, &height);
+
+	if (age < 14 & height < 160)
+		printf("O");
+
+	else
+		printf("X");
 
     return 0;
 }

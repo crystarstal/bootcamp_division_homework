@@ -6,7 +6,23 @@
 #include <stdio.h>
 
 int main() {
-    // 이곳에 코드를 작성해주세요!
+    int num, num1, num2, num3;
+	int i, j, k;
+	scanf("%d", &num);
 
-    return 0;
+	for (i=-1; num > 0; i++)
+	{
+		num = num - 100;
+	}
+	num1 = num + 100;
+
+	for (j = -1; num1 > 0; j++)
+	{
+		num1 = num1 - 10;
+	}
+	num2 = num1 + 10;
+	num3 = 100 * num2 + 10* j + i;
+	printf("%d\n", num3);
+	
+	return 0;
 }

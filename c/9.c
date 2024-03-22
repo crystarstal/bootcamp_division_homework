@@ -6,7 +6,45 @@
 #include <stdio.h>
 
 int main() {
-    // 이곳에 코드를 작성해주세요!
+   int n = 0, i = 0, sum = 0;
+void chain();
+int main()
+{
+	scanf("%d", &n);
+	
+	if (n <= 0)
+	{
+		printf("X\n");
+		chain();
+	}
+		
+	else
+	{
+		for (i = n; i >= 0; i--)
+		{
+			sum = sum + i;
+		}
+		printf("%d", sum);
+	}
+}
 
+void chain()
+{
+	scanf("%d", &n);
+
+	if (n <= 0)
+	{
+		printf("X\n");
+		chain();
+	}
+
+	else if (n > 0)
+	{
+		for (i = n; i >= 0; i--)
+		{
+			sum = sum + i;
+		}
+		printf("%d", sum);
+	}
     return 0;
 }

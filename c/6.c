@@ -6,7 +6,26 @@
 #include <stdio.h>
 
 int main() {
-    // 이곳에 코드를 작성해주세요!
+    char alphabet;
+	scanf("%c", &alphabet);
+
+	if (alphabet == 'a')
+		printf("O");
+
+	if (alphabet == 'e')
+		printf("O");
+
+	if (alphabet == 'i')
+		printf("O");
+
+	if (alphabet == 'o')
+		printf("O");
+
+	if (alphabet == 'u')
+		printf("O");
+
+	else
+		printf("X");
 
     return 0;
 }
