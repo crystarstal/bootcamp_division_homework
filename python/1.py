@@ -4,8 +4,6 @@
 """
 
 def main():
-    # 이곳에 코드를 작성해주세요!
-
     num =(input())
     if  100<=int(num)<=999: 
         print(int(num[::-1]))

@@ -4,7 +4,7 @@
 """
 
 def main():
-    # 이곳에 코드를 작성해주세요!
+   
     alpha=input()
 
     if alpha == 'a' or  alpha == 'e' or  alpha == 'i' or alpha == 'o' or alpha =='u':

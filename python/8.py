@@ -4,7 +4,7 @@
 """
 
 def main():
-    # 이곳에 코드를 작성해주세요!
+   
     n = int(input())
 
     a=0
@@ -18,8 +18,6 @@ def main():
         for i in range(1,n+1):
             b*=i
 
-        print('{}: 1부터 {}까지의 합'.format(a,n))
-        print('{}: {}! ({})'.format(b,n,(" * ".join(str(i) for i in range(n+1)))))
         print(a)
         print(b)
 
@@ -30,13 +28,11 @@ def main():
         for i in range(1,n+1):
             b*=i
 
-        print('{}: 1부터 {}까지의 합'.format(a,n))
-        print('{}: {}! ({})'.format(b,n,'1'))
         print(a)
         print(b)
     
 
-    return
+        return
 
 if __name__ == '__main__':
     main()
