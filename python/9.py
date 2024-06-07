@@ -5,9 +5,24 @@
 
 def main():
     # 이곳에 코드를 작성해주세요!
+    while True:
+
+        num = int(input())
+
+        if num>0:
+
+            a=0
+            for i in range(num+1):
+                a=a+i
+
+            print(a)       
+            break
+           
+
+        else:
+            print('X')
 
     return
-
 
 if __name__ == '__main__':
     main()

@@ -4,7 +4,25 @@
 """
 
 def main():
-    # 이곳에 코드를 작성해주세요!
+
+    score=int(input())
+
+    if 90<=score<=100:
+        grade='A'
+
+    if score<90 and score>=80:
+        grade='B'
+
+    if score<80 and score>=70:
+        grade='C'
+
+    if score<70 and score>=60:
+        grade='D'
+
+    if score<60:
+        grade='F'
+
+    print(grade)
 
     return
 

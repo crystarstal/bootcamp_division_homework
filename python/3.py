@@ -4,7 +4,17 @@
 """
 
 def main():
-    # 이곳에 코드를 작성해주세요!
+    time=int(input())
+
+    if 0<=time<=24:
+        if time<12:
+            print('AM')
+
+        else:
+            print('PM')
+
+    else:
+        print('유효한 시간이 아닙니다.')
 
     return
 

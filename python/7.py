@@ -5,6 +5,29 @@
 
 def main():
     # 이곳에 코드를 작성해주세요!
+    year=int(input())
+    month=int(input())
+
+    if (year%4==0 and year%100 !=0) or (year%400==0):
+        if month == 4 | 6 | 9 | 11:
+            print('30')
+
+        if month == 2:
+            print('29')
+
+        else:
+            print('31')
+
+    else:
+        if month == 4 | 6 | 9 | 11:
+            print('30')
+
+        if month == 2:
+            print('28')
+
+        else:
+            print('31')
+
 
     return
 
